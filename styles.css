@@ -1,0 +1,110 @@
+body
+{
+    color:white;
+}
+.box
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{
+    height: 5%;
+    display: flex;
+    background-color: rgb(34, 34, 87);
+    justify-content: center;
+    
+
+}
+.headline
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+
+    padding: 10px;
+    align-self: center;          
+    
+}
+.push-headline
+{
+    margin-left: 50%;
+}
+.headline2
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+
+.bodyy{
+    flex-direction: row;
+    height: 200px;
+    width: auto;
+    display: flex;
+    background-color: #222257;
+    
+}
+.bodyleft{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;   
+    justify-content: center;
+    align-content: center;
+    
+}
+.bodylefthead{
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.bodyright{
+        width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+.image{
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    
+}
+.button{
+    align-content: center;
+    justify-content: center;
+    color: tomato;
+}
+.lowerbody{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: darkblue;
+    border: red;
+    border-radius: 5px;
+    
+}
+.footer
+{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 87);
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace    ;
+    align-items: center;
+}
